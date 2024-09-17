@@ -28,7 +28,7 @@ function removeShow() {
   });
 }
 
-// Listen for tab item click
+// Listen for tab item when user click
 tabItems.forEach(item => {
   item.addEventListener("click", selectItem);
 });
